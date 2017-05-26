@@ -1,0 +1,3 @@
+Bundle-Name: Liferay Node.js Shims
+Bundle-SymbolicName: com.liferay.node.shims
+Bundle-Version: 1.0.0
