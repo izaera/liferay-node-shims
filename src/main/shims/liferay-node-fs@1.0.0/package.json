@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-fs",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for fs package",
+  "main": "index.js",
+  "dependencies": {}
+}

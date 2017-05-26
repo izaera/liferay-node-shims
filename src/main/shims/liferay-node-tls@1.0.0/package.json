@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-tls",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for tls package",
+  "main": "index.js",
+  "dependencies": {}
+}

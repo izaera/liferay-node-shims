@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-repl",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for repl package",
+  "main": "index.js",
+  "dependencies": {}
+}

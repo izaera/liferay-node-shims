@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-module",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for module package",
+  "main": "index.js",
+  "dependencies": {}
+}

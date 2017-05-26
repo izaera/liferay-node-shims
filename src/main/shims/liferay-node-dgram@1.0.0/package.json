@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-dgram",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for dgram package",
+  "main": "index.js",
+  "dependencies": {}
+}

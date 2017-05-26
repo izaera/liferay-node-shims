@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-child_process",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for child_process package",
+  "main": "index.js",
+  "dependencies": {}
+}

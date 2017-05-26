@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-v8",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for v8 package",
+  "main": "index.js",
+  "dependencies": {}
+}

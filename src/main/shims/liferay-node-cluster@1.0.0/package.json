@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-cluster",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for cluster package",
+  "main": "index.js",
+  "dependencies": {}
+}

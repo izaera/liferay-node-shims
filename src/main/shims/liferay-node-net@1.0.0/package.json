@@ -1,0 +1,7 @@
+{
+  "name": "liferay-node-net",
+  "version": "1.0.0",
+  "description": "Liferay Node.js shim for net package",
+  "main": "index.js",
+  "dependencies": {}
+}
