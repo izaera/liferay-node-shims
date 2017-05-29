@@ -136,14 +136,14 @@ gulp.task('create-shims', function() {
 			indexJs += '\n';
 			indexJs += '});';
 		} else {
+			var requirePkg = requireModule;
 			var i = requireModule.indexOf('/');
 
-			if (i == -1) {
-				pkgJson.dependencies[shim] = dependencies[requireModule];
-			} else {
-				pkgJson.dependencies[shim] =
-					dependencies[requireModule.substring(0, i)];
+			if (i != -1) {
+				requirePkg = requireModule.substring(0, i);
 			}
+
+			pkgJson.dependencies[requirePkg] = dependencies[requirePkg];
 
 			indexJs += "Liferay.Loader.define('" + id + "/index', ";
 			indexJs += "['module', '" + requireModule + "'], ";

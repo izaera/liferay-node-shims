@@ -4,6 +4,6 @@
   "description": "Liferay Node.js shim for https package",
   "main": "index.js",
   "dependencies": {
-    "https": "^1.0.0"
+    "https-browserify": "^1.0.0"
   }
 }

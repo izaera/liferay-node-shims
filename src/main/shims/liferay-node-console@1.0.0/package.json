@@ -4,6 +4,6 @@
   "description": "Liferay Node.js shim for console package",
   "main": "index.js",
   "dependencies": {
-    "console": "^1.1.0"
+    "console-browserify": "^1.1.0"
   }
 }

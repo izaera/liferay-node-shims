@@ -4,6 +4,6 @@
   "description": "Liferay Node.js shim for stream package",
   "main": "index.js",
   "dependencies": {
-    "stream": "^2.0.1"
+    "stream-browserify": "^2.0.1"
   }
 }

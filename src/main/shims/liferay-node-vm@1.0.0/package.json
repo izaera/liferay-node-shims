@@ -4,6 +4,6 @@
   "description": "Liferay Node.js shim for vm package",
   "main": "index.js",
   "dependencies": {
-    "vm": "0.0.4"
+    "vm-browserify": "0.0.4"
   }
 }

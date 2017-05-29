@@ -4,6 +4,6 @@
   "description": "Liferay Node.js shim for zlib package",
   "main": "index.js",
   "dependencies": {
-    "zlib": "^0.1.4"
+    "browserify-zlib": "^0.1.4"
   }
 }
