@@ -3,7 +3,5 @@
   "version": "1.0.0",
   "description": "Liferay Node.js shim for http package",
   "main": "index.js",
-  "dependencies": {
-    "stream-http": "^2.7.1"
-  }
+  "dependencies": {}
 }

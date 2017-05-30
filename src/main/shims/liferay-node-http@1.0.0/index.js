@@ -1,5 +1,5 @@
-Liferay.Loader.define('liferay-node-http@1.0.0/index', ['module', 'stream-http'], function(module, shim) {
+Liferay.Loader.define('liferay-node-http@1.0.0/index', ['module'], function(module) {
 
-module.exports = shim;
+module.exports = 'NO SHIM AVAILABLE FOR NODE MODULE http :-(';
 
 });

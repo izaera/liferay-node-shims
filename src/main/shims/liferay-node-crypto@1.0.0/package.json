@@ -3,7 +3,5 @@
   "version": "1.0.0",
   "description": "Liferay Node.js shim for crypto package",
   "main": "index.js",
-  "dependencies": {
-    "crypto-browserify": "^3.11.0"
-  }
+  "dependencies": {}
 }
