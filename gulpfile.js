@@ -16,7 +16,7 @@ var shims = {
 	buffer: 'buffer',
 	child_process: null,
 	cluster: null,
-	console: 'console-browserify',
+	console: 'console-browserify', // does not need require, can be required, API differs in server/browser when not required so it could make sense to always require it?
 	// CUSTOMIZED constants: 'constants-browserify',
 	crypto: null, // has ciclic dependencies: 'crypto-browserify',
 	dgram: null,
@@ -30,14 +30,14 @@ var shims = {
 	net: null,
 	os: 'os-browserify/browser',
 	path: 'path-browserify',
-	process: 'process/browser',
+	process: 'process/browser', // does not need require but can be required
 	punycode: 'punycode',
 	querystring: 'querystring-es3',
 	readline: null,
 	repl: null,
 	stream: null, // has ciclic dependencies: 'stream-browserify',
 	string_decoder: 'string_decoder',
-	timers: 'timers-browserify',
+	timers: 'timers-browserify', // does not need require, can be required
 	tls: null,
 	tty: 'tty-browserify',
 	url: 'url',
