@@ -25,7 +25,7 @@ dependencies {
 }
 
 liferay {
-  deployDir = new File("/Users/ivan/Liferay/bundles/deploy")
+  deployDir = new File("/Users/ivan/Liferay/CE/bundles/deploy")
 }
 
 repositories {
@@ -41,7 +41,7 @@ tasks.transpileJS.enabled = false
 tasks.configJSModules.enabled = false
 
 // Insert a custom gulp task in the build
-task gulp(type: Exec, dependsOn: replaceSoyTranslation) {
-	commandLine = ['./node_modules/.bin/gulp']
+task npmRunBuild(type: Exec, dependsOn: replaceSoyTranslation) {
+	commandLine = ['npm', 'run', 'build']
 }
-jar.dependsOn(gulp)
+jar.dependsOn(npmRunBuild)
